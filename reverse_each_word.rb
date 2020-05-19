@@ -1,5 +1,6 @@
 
 def reverse_each_word (sentence)
+  sentence = "Wassup fool!"
   word_array = sentence.split(/ /) 
   new_sentence = []
   
