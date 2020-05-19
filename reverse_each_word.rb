@@ -1,6 +1,5 @@
 
 def reverse_each_word (sentence)
-  sentence= "Hi Shane, it's me!"
   word_array = sentence.split
   new_sentence = []
   
@@ -8,7 +7,7 @@ def reverse_each_word (sentence)
  
   puts rev_word
   new_sentence << rev_word
-
+end
 result = new_sentence.join(" ")
 result
 
