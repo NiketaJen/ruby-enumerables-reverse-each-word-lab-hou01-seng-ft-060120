@@ -12,7 +12,7 @@ end
 result = new_sentence.join(" ")
 result
 end
-binding.pry 
+
 
 def reverse_each_word (sentence)
   sentence_array =[sentence]
