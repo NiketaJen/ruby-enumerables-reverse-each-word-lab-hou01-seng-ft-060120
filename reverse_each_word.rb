@@ -1,5 +1,6 @@
-sentence= "Hi Shane, it's me!"
+
 def reverse_each_word (sentence)
+  sentence= "Hi Shane, it's me!"
   word_array = sentence.split
   new_sentence = []
   
