@@ -13,9 +13,3 @@ result
 end
 
 
-def reverse_each_word (sentence)
-  sentence_array =[sentence]
-  
-  sentence_array.collect(&:reverse!).join (' ')
-  
-end
