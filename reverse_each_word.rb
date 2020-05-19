@@ -3,7 +3,7 @@ def reverse_each_word (sentence)
   sentence = "Wassup fool!"
   word_array = sentence.split(/ /) 
   new_sentence = []
-  
+  binding.pry
  word_array.each do |word|
    rev_word = word.reverse
  
