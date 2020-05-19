@@ -1,6 +1,6 @@
 
 def reverse_each_word ("Hi Shane, it's me!")
-  word_array = ("Hi Shane, it's me!").split
+  word_array = "Hi Shane, it's me!".split(/ /)
   new_sentence = []
   
  word_array.each {|word| rev_word = word.reverse}
